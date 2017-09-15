@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frogger Game!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body class="container">
+    <div class="row">
+        <div class="col-md-12">
+<!--            <nav class="navbar navbar-default">-->
+            </nav>
+        </div>
+    </div>
+    <!-- ME -->
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h4>Frogger Game</h4>
+            </div>
+        </div>
+    </div>
+    <!-- End of ME -->
+
+    <!-- Portfolio -->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/char-boy.png" alt="">
+                <input type="radio" name="charc" value="boy" checked>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/char-horn-girl.png" alt="">
+                <input type="radio" name="charc" value="horn">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/char-princess-girl.png" alt="">
+                <input type="radio" name="charc" value="princess">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/char-cat-girl.png" alt="">
+                <input type="radio" name="charc" value="cat">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <h5>Easy</h5>
+                <input type="radio" name="level" value="easy" checked>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <h5>Medium</h5>
+                <input type="radio" name="level" value="hard">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <h5>Hard</h5>
+                <input type="radio" name="level" value="impossible">
+            </div>
+
+        </div>
+        <p><a href="#game"><input type="button" id="start" value="Start Playing!" class="btn btn-default navbar-btn"></a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" id="game">Game leaderboard</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span class="badge" id="life">5</span> 
+                                    Lifes
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <span class="badge" id="score">0</span> 
+                                    Score
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of ME -->
+    <!-- game canves -->
+    <div class="row">
+        <div class="col-md-6">
+            <script src="js/resources.js"></script>
+            <script src="js/app.js"></script>
+            <script src="js/engine.js"></script>
+            <script src="js/bootstrap.js"></script>
+        </div>
+    </div>
+    <!-- End of game canves -->
+    <!-- Footer -->
+<!--
+    <div class="row">
+        <div class="col-md-12">
+            <footer>
+                <div id="copyright" class="navbar navbar-inverse">
+                    <h5> All rights reserved © 2017</h5>
+                </div>
+            </footer>
+        </div>
+    </div>
+-->
+    <!-- End of Footer -->
+</body>
+
+</html>

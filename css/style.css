@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+
+
+.wrap {
+    max-width: 960px;
+}
+
+
+#cright {
+    color: white;
+}
+
+#copyright {
+    max-height: 10px;
+}
